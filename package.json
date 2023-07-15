@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "name": "excalibur-vite-vscode-debuggable-template",
+  "version": "0.0.1",
+  "scripts": {
+    "clean": "git clean -fdx --exclude .vscode --exclude TODO.md"
+  },
+  "author": "tenpaMk2 <wavyroom@gmail.com> (https://github.com/tenpaMk2)",
+  "license": "MIT",
+  "keywords": [
+    "excaliburjs",
+    "excalibur",
+    "typescript",
+    "vite",
+    "vscode"
+  ],
+  "workspaces": [
+    "tiled-template",
+    "vanilla-template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenpaMk2/excalibur-vite-vscode-debuggable-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tenpaMk2/excalibur-vite-vscode-debuggable-template/issues"
+  },
+  "homepage": "https://github.com/tenpaMk2/excalibur-vite-vscode-debuggable-template",
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}

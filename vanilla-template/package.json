@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "vanilla-template",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "author": "tenpaMk2 <wavyroom@gmail.com> (https://github.com/tenpaMk2)",
+  "license": "MIT",
+  "dependencies": {
+    "excalibur": "^0.27.0",
+    "vite": "4.4.4",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}

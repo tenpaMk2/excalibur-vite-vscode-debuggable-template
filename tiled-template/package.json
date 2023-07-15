@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "tiled-template",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "author": "tenpaMk2 <wavyroom@gmail.com> (https://github.com/tenpaMk2)",
+  "license": "MIT",
+  "dependencies": {
+    "@excaliburjs/plugin-tiled": "^0.27.0",
+    "excalibur": "^0.27.0",
+    "typescript": "^5.1.6",
+    "vite": "4.4.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
