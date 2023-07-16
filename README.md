@@ -9,16 +9,26 @@ This is an Excalibur.js debuggable template for the following environment.
 
 You can easily debug on VSCode by using this template.
 
+## Requirements💡
+
+1. Node.js
+
 ## Get Started🚀
 
 1. Open this repository by VSCode.
 
-2. Choose the template.
+2. Open the terminal and execute the following command.
+
+   ```shell
+   npm install
+   ```
+
+3. Choose the template.
 
    1. `vanilla-template` : A template for the vanilla Excalibur.js.
    2. `tiled-template` : A template for the Excalibur.js with Tiled Plugin.
 
-3. Edit `.vscode/launch.json` at the following line.
+4. Edit `.vscode/launch.json` at the following line.
 
    ```json
      "webRoot": "${workspaceFolder}/vanilla-template/"
@@ -28,25 +38,25 @@ You can easily debug on VSCode by using this template.
 
    (The following description assumes `vanilla-template` .)
 
-4. Open any source code in `vanilla-template/src/` .
+5. Open any source code in `vanilla-template/src/` .
 
    Set the break point by clicking the left point of line numbers.
    Then, you can see the red circle as shown in the top image.
 
-5. Execute following command.
+6. Execute following command.
 
    ```shell
    cd vanilla-template
    npm run dev
    ```
 
-6. Start debug by clicking green button in `Run and Debug` pane.
+7. Start debug by clicking green button in `Run and Debug` pane.
 
    ![start debug](./imgs/start-debug.png)
 
    Then, new chrome window will be opened automatically.
 
-7. When the process reach at break point,
+8. When the process reach at break point,
    it will break as expected❗
 
 ## Build💪
